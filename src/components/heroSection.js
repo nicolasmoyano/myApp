@@ -10,9 +10,6 @@ maxWidth: 1200, margin: '0 auto',
 verticalAlign: 'middle',
 padding: '25% 0'}}>Digital Art Direction <span style={{color: '#62EBFF'}}>&</span> Product design.</h1>
 </div>
-<div style={{ margin: '0 auto', verticalAlign: 'center' }}>
-  <span >Scroll Down</span>
-</div>
 </div>
 )
 

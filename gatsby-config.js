@@ -26,6 +26,15 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
+
+      {
+        resolve: 'gatsby-source-google-sheets',
+        options: {
+            spreadsheetId: '1UjEDYiacBww9HAeRzX3QF6W6u-8d00g2LV0j1lTPi-E',
+            worksheetTitle: 'Portfolio',
+            credentials: require('../myApp/src/client_secret.json')
+        }
+    },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

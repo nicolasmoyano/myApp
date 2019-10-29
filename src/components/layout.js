@@ -33,10 +33,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main style={{
-          background: `#FFFBF5`,
-          margin: 0,
-        }}>{children}</main>
+        <main style={{ margin: 0, }}>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}

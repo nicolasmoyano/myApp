@@ -30,8 +30,9 @@ module.exports = {
       {
         resolve: 'gatsby-source-google-sheets',
         options: {
-            spreadsheetId: '1UjEDYiacBww9HAeRzX3QF6W6u-8d00g2LV0j1lTPi-E',
-            worksheetTitle: 'Portfolio',
+            // spreadsheetId: '1UjEDYiacBww9HAeRzX3QF6W6u-8d00g2LV0j1lTPi-E',
+            spreadsheetId: '2PACX-1vSglb9KS4EYiTxTAa9Pxd87oiPwy_5t6IWF9BYIJtckidNMAEc9Jtq1Aa-rqi1kBvPFwIul2yeQr5yy/pubhtml?gid=0&single=true',
+            worksheetTitle: 'portfolio',
             credentials: require('../myApp/src/client_secret.json')
         }
     },

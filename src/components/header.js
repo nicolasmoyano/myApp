@@ -6,7 +6,6 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `white`,
-      marginBottom: `1.45rem`,
       borderBottom: '1px solid',
       borderColor: '#e0e0e0'
     }}
@@ -15,7 +14,8 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: '100vw',
-        padding: `1.4rem 4.5rem`,
+        padding: '0px 40px',
+        paddingBottom: '24px'
       }}
     >
       <h1 style={{ margin: 0 }}>

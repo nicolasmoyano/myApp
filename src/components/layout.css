@@ -200,6 +200,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  background: #FFFBF5;
   color: #505050;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -219,7 +220,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 h1 {
   margin-left: 0;

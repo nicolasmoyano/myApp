@@ -5,6 +5,8 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
+      position: 'sticky',
+      top: '0',
       background: `white`,
       borderBottom: '1px solid',
       borderColor: '#e0e0e0'
